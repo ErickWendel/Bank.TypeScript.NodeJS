@@ -5,6 +5,7 @@ class Funcionario implements IFuncionario {
     public id: number;
     public nome: string;
     public salario: number;
+    public tipoFuncionario: number;
     
     retornarBonificacao (): number {
         

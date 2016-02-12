@@ -7,8 +7,7 @@ class DataBase {
 
 
     private static get secretarias(): Array<Secretaria> {
-        let secretarias = new Array<Secretaria>();
-        secretarias = [
+        let secretarias: Array<Secretaria> = [
 
             <Secretaria>{ codigoAcesso: 1111, id: 1, nome: 'Marcia', salario: 3000 },
             <Secretaria>{ codigoAcesso: 1112, id: 2, nome: 'Judite', salario: 3000 },
@@ -26,8 +25,7 @@ class DataBase {
     }
 
     private static get gerentes(): Array<Gerente> {
-        let gerentes = new Array<Gerente>();
-        gerentes = [
+        let gerentes: Array<Gerente> = [
 
             <Gerente>{ senha: 1111, id: 1, nome: 'Erick Wendel', salario: 13000 },
             <Gerente>{ senha: 3111, id: 1, nome: 'Josue', salario: 14000 },
@@ -47,7 +45,7 @@ class DataBase {
         var funcionarios = new Array<Funcionario>();
         gerentes.map((gerente) => funcionarios.push(gerente));
         secretarias.map((secretaria) => funcionarios.push(secretaria));
-	    return funcionarios;
+        return funcionarios;
     }
     // static get findById
     

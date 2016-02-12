@@ -43,8 +43,8 @@ class DataBase {
         let secretarias: Array<Secretaria> = this.secretarias;
 
         var funcionarios = new Array<Funcionario>();
-        gerentes.map((gerente) => funcionarios.push(gerente));
-        secretarias.map((secretaria) => funcionarios.push(secretaria));
+        gerentes.forEach((gerente) => funcionarios.push(gerente));
+        secretarias.forEach((secretaria) => funcionarios.push(secretaria));
         return funcionarios;
     }
     // static get findById

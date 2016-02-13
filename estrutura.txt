@@ -1,3 +1,21 @@
+- Configuração do VSCode
+	- Lauch
+	- Tasks
+	- Debugger	
+
+
+- Funcionario
+- Gerente
+- Secretaria
+
+- Enum
+	 - TipoFuncionario
+
+Interface
+	- Funcionario
+
+
+
 src/
 ├── database
 │   └── banco.ts

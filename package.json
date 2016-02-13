@@ -9,6 +9,9 @@
   "author": "erickwendel",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-typescript": "^2.11.0",
     "tsd": "^0.6.5"
   }
 }

@@ -7,6 +7,6 @@ class Gerente extends Funcionario {
     retornarBonificacao(): number  {
         return this.salario * 0.30;
     }
-}
+}  
 Object.seal(Gerente);
-export = Gerente;
+export = Gerente ;

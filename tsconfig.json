@@ -4,6 +4,11 @@
         "module": "commonjs",
         "outDir": "lib",
         "watch": true,
-        "removeComments": true
+        "sourceMap": true,
+        
+        
+        "removeComments": true,
+        "noImplicitAny":  true
+        
     }
 }

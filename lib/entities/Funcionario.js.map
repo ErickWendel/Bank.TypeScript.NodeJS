@@ -1,0 +1,1 @@
+{"version":3,"file":"Funcionario.js","sourceRoot":"","sources":["../../src/entities/Funcionario.ts"],"names":["Funcionario","Funcionario.retornarBonificacao"],"mappings":"AAAA,YAAY,CAAC;AAEb;IAOIA,mBAAmBA;QAEfC,MAAMA,CAACA,IAAIA,CAACA,OAAOA,GAAGA,IAAIA,CAACA;IAC/BA,CAACA;AACLD,CAACA;AACD,iBAAS,WAAW,CAAC"}

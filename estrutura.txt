@@ -1,0 +1,13 @@
+src/
+├── database
+│   └── banco.ts
+├── entities
+│   ├── Funcionario.ts
+│   ├── Gerente.ts
+│   ├── Secretaria.ts
+│   ├── enums
+│   │   └── TipoFuncionario.ts
+│   └── interfaces
+│       └── Funcionario.ts
+└── index.ts
+

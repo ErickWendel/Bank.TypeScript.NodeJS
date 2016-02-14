@@ -14,7 +14,8 @@
 Interface
 	- Funcionario
 
-
+banco 
+	lista de 
 
 src/
 ├── database

@@ -1,0 +1,41 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch",
+			"type": "node",
+			"request": "launch",
+            //para depurar a nossa aplicacao TypeScript
+            //precisamos informar o PATH (LUGAR) onde o nosso
+            //arquivo de inicializacao está 
+			"program": "${workspaceRoot}/src/index.ts",
+			"stopOnEntry": false,
+			"args": [],
+			"cwd": "${workspaceRoot}",
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": false,
+            //habilitamos o sourceMAP
+            //-> definimos no tsconfig.json para o caminho 
+            //do arquivo gerado
+			"sourceMaps": true,
+            
+			"outDir": "${workspaceRoot}/lib"
+		},
+		{
+			"name": "Attach",
+			"type": "node",
+			"request": "attach",
+			"port": 5858,
+			"sourceMaps": false,
+			"outDir": null,
+			"localRoot": "${workspaceRoot}",
+			"remoteRoot": null
+		}
+	]
+}

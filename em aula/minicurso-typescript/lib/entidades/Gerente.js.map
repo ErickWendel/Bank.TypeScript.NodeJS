@@ -1,0 +1,1 @@
+{"version":3,"file":"Gerente.js","sourceRoot":"","sources":["../../src/entidades/Gerente.ts"],"names":["Gerente","Gerente.retornarBonificacao"],"mappings":"AAAA,IAAO,WAAW,WAAW,eAAe,CAAC,CAAC;AAC9C,sBAAsB,WAAW;IAG7BA,mBAAmBA;QACfC,MAAMA,CAACA,IAAIA,CAACA,OAAOA,GAAGA,IAAIA,CAACA;IAC/BA,CAACA;AACLD,CAACA;AACD,iBAAS,OAAO,CAAC"}
